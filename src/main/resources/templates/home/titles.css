@@ -1,0 +1,9 @@
+
+.titlePos{
+    position: fixed;
+    bottom: 0;
+    right: 220px;
+    width: 600px;
+    height: 680px;
+    margin: auto;
+}
