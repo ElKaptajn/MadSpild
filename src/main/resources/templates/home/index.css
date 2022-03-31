@@ -32,7 +32,7 @@ div {
 }
 
 body {
-    background: url("/pictures/indexbg.jpg");
+    background: url("/pictures/indexbg.png");
     padding-top: 50px;
     text-align: center;
 }
@@ -41,7 +41,7 @@ body {
 /*Classes*/
 
 .headline {
-    padding-top: 200px;
+    padding-top: 50px;
 }
 
 .info {
@@ -49,5 +49,12 @@ body {
 }
 
 .calc {
-    padding-top: 100px;
+    padding-top: 50px;
+}
+
+
+/*IDs*/
+
+#logo {
+
 }
