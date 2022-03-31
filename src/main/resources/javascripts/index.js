@@ -2,8 +2,8 @@
 window.onload = function() {
 
     //variables
-    var i = 1;
-    var seconds = document.getElementById('waste');
+    let i = 1;
+    let seconds = document.getElementById('waste');
 
     //sets run-interval to 1 second
     function startCount() {

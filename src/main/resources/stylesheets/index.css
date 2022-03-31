@@ -32,7 +32,7 @@ div {
 }
 
 body {
-    background: url("/pictures/indexbg.png");
+    background: url("../pictures/indexbg.png");
     padding-top: 100px;
     text-align: center;
 }
