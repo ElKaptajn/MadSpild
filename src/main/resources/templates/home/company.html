@@ -10,3 +10,46 @@
 
 </body>
 </html>
+
+
+<html>
+    <head>
+        <script>
+            function dis(val){
+                document.getElementById("result").value+=val
+            }
+            function solve(){
+                let x = document.getElementById("result").value
+                let y = 256*(x)
+                document.getElementById("result").value = y
+            }
+        </script>
+            <style>
+                .title{
+                    margin-bottom: 70px;
+                    text-align: center;
+                    width: 250px;
+                    color: lightcyan;
+                    border: aquamarine 3px;
+                }
+                input[type="button"] {
+                    background-color: aquamarine;
+                    color: black;
+                    border: aquamarine 3px;
+                }
+                input[type="text"]{
+                    background-color: aquamarine;
+                    border: lightgreen 3px;
+                    width: 98%;
+
+            </style>
+    </head>
+        <body>
+                <div class = title >Comercial Calculator</div>
+                <table border="1">
+                    <tr>
+                        <td colspan="3"><input type="text" id ="result"/></td>
+                        <td><input type="button" value="Tryk her for at udregn madspild" onclick="solve()"/></td>
+
+
+</html>
