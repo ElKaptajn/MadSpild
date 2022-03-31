@@ -1,0 +1,34 @@
+/*Text types*/
+
+h0 {
+    color: white;
+    font-family: "Arial Narrow";
+    font-size: xxx-large;
+    font-weight: bolder;
+}
+
+p0 {
+    color: white;
+    font-family: "Arial Narrow";
+    font-size: x-large;
+    font-weight: bold;
+}
+
+/*Wrappers*/
+
+div {
+    padding-top: 100px;
+    text-align: center;
+}
+
+body {
+    background: url("pictures/indexbg.jpg");
+    padding-top: 300px;
+    text-align: center;
+}
+
+/*Classes*/
+
+.info {
+
+}
