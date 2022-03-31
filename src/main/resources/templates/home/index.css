@@ -2,33 +2,52 @@
 
 h0 {
     color: white;
-    font-family: "Arial Narrow";
-    font-size: xxx-large;
+    text-shadow: 2px 3px 5px black;
+    font-family: "Arial Narrow", serif;
+    font-size: 5em;
     font-weight: bolder;
 }
 
 p0 {
     color: white;
-    font-family: "Arial Narrow";
-    font-size: x-large;
+    text-shadow: 2px 3px 5px black;
+    font-family: "Arial Narrow", serif;
+    font-size: 1.5em;
     font-weight: bold;
 }
+
+p1 {
+    color: white;
+    text-shadow: 2px 3px 5px black;
+    font-family: "Arial Narrow", serif;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
 
 /*Wrappers*/
 
 div {
-    padding-top: 100px;
-    text-align: center;
+
 }
 
 body {
-    background: url("pictures/indexbg.jpg");
-    padding-top: 300px;
+    background: url("/pictures/indexbg.jpg");
+    padding-top: 50px;
     text-align: center;
 }
 
+
 /*Classes*/
 
-.info {
+.headline {
+    padding-top: 200px;
+}
 
+.info {
+    padding-top: 50px;
+}
+
+.calc {
+    padding-top: 100px;
 }
