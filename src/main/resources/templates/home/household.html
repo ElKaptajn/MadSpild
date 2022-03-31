@@ -4,16 +4,32 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel = "stylesheet" href="bottoms.css">
+    <script>
+        function dis(val){
+            document.getElementById("result").value+=val
+        }
+        function solve(){
+            let x = document.getElementById("result").value
+            let y = 5*(x)
+            document.getElementById("result").value = y
+        }
+    </script>
 </head>
 <body>
 
 <h1>Household page</h1>
 <div class = "wrapper">
+    <div class = "textButton">
+        <p>Indtast antal personer i familien for at udregne jeres madspild</p>
+    </div>
     <div class = "button1">
-        <input type="text" name="personer" placeholder="Antal personer">
+        <td><input type="text" name="personer" placeholder="Antal personer" id ="result"/></td>
    <!-- <input type = "submit" name = "forbrug" placeholder= "Se mit forbrug">!-->
-    <input type="button" onclick="alert('Hello World!')" value="Se mit forbrug">
+        <div class = "button2">
+    <!--<input type="button" onclick="alert('Hello World!')" value="Se mit forbrug">!-->
+                    <td><input type="button" value="Tryk her" onclick="solve()"/></td>
         </div>
+    </div>
 </div>
 </body>
 </html>
