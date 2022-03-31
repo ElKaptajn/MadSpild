@@ -13,7 +13,7 @@ window.onload = function() {
     //adds to variable i and prints to html
     function increase() {
         i++;
-        seconds.innerHTML = i * 21;
+        seconds.innerText = i * 21;
     }
 
     //run
