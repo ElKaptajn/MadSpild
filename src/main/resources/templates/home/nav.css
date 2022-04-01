@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Palette+Mosaic&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+
+}
+.main {
+    margin-top: 2rem;
+    padding: 2rem;
+}
+
+.main h1{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.main p{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.main h2{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.boxLeft img, .boxRight img{
+    width: 350px;
+    height: 350px;
+    float: left;
+    border-radius: 20px;
+
+}
+.boxRight h3, .boxLeft h3{
+    text-align: center;
+}
+
+.boxRight ul, .boxLeft ul{
+    list-style-image: url("/pictures/fluebenNY.png");
+    float: left;
+    display: inline;
+    padding-left: 60px;
+}
+.boxRight h4, .boxLeft h4{
+    float: left;
+    display: inline;
+    padding-left: 60px;
+}
+.boxRight p, .boxLeft p{
+   margin-left: 410px;
+}
+
+
+.boxLeft{
+    display: inline;
+    float: left;
+    border: none;
+    width: 45%;
+    height: 600px;
+    font-size: 22px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    /*margin-right: auto; margin-left: auto; sat sammen gør at elementet altid er i midten af skærmen*/
+    margin-right: auto;
+    font-family: 'Montserrat', sans-serif;
+
+}
+.boxRight{
+     display: inline;
+     float: right;
+     border: none;
+     width: 45%;
+     height: 600px;
+     font-size: 22px;
+     padding-left: 50px;
+     padding-right: 50px;
+     padding-top: 30px;
+     /*margin-right: auto; margin-right: auto; sat sammen gør at elementet altid er i midten af skærmen*/
+     margin-left: auto;
+    font-family: 'Montserrat', sans-serif;
+ }
+
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: #002043;
+}
+
+.background{
+    background-color: lightblue;
+    width: 100%;
+    height: 500px;
+}
+
+.img-clickable{
+    margin-right: auto;
+}
+
+.logo{
+    height: 4rem;
+    margin-right: auto;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0 1.25rem;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    transition: all 0.5s ease 0s;
+    color: whitesmoke;
+
+}
+
+.nav-links li a:hover{
+    color: rgba(0, 173 ,181 , 0.8);
+}
+
+#bNav button{
+    background: #04bd70;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    transition: all 0.5s ease 0s;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: whitesmoke;
+}
+
+#bNav button:hover{
+    background: rgba(0, 173 ,181 , 0.8);
+}
+
+
+
+
