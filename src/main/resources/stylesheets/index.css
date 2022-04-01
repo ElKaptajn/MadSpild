@@ -1,9 +1,13 @@
+/*imports*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Palette+Mosaic&display=swap');
+
 /*text types*/
 
 h0 {
     color: white;
     text-shadow: 2px 3px 5px black;
-    font-family: "Arial Narrow", serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 5em;
     font-weight: 900;
 }
@@ -11,7 +15,7 @@ h0 {
 p0 {
     color: white;
     text-shadow: 2px 3px 5px black;
-    font-family: "Arial Narrow", serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 1.3em;
     font-weight: 700;
 }
@@ -19,7 +23,7 @@ p0 {
 p1 {
     color: white;
     text-shadow: 2px 3px 5px black;
-    font-family: "Arial Narrow", serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 2.5em;
     font-weight: bold;
 }
@@ -32,7 +36,7 @@ div {
 }
 
 body {
-    background: url("/pictures/aboutbg.png");
+    background: url("/pictures/indexbg.png");
     padding-top: 100px;
     text-align: center;
 }
@@ -61,3 +65,7 @@ body {
     height: auto;
     width: auto
 }
+
+
+/*navigationbar*/
+
