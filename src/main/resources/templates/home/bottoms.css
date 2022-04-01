@@ -1,11 +1,12 @@
-.wrapper{
+.buttonWrapper{
     height: 220px;
     width: 350px;
     border-radius: 10px;
-    margin: auto;
-    padding: 1px;
-    position: absolute;
-    right: 200px;
+    border-color: black;
+    position: sticky;
+    float: right;
+    margin-top: 50px;
+    margin-right: 100px;
     background: url("/pictures/Householdbuttonimagetwo.jpg");
     background-size:     cover;
     background-repeat:   no-repeat;
@@ -15,7 +16,7 @@
 .button1 {
     border: aquamarine 3px;
     color: black;
-    padding: 10px 32px 10px 15px;
+    padding: 10px 150px 10px 5px;
     text-align: center;
     text-decoration: lightgreen;
     display: inline-block;
@@ -30,6 +31,19 @@
 }
 .textButton{
     color: black;
-    padding: 25px 150px 1px 15px;
     font-weight: bold;
+    border-color: black;
+    margin-right: 150px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.tekstWrapper{
+    height: 220px;
+    width: 500px;
+    margin-top: 50px;
+    padding: 1px;
+    position: absolute;
+    border-color: black;
+    left: 100px;
 }

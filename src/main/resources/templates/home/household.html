@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel = "stylesheet" href="bottoms.css">
+    <link rel="stylesheet" href="nav.css">
     <script>
         function dis(val){
             document.getElementById("result").value+=val
@@ -18,9 +19,26 @@
     </script>
 </head>
 <body>
+<header>
+        <span class="img-clickable">
+            <a href="index.html">
+                <img src="/pictures/Logo%20med%20tekst.png" alt="main-logo" class="logo"/>
+            </a>
+        </span>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html">Hjem</a></li>
+            <li><a href="household.html">Husstand</a></li>
+            <li><a href="commercial.html">Kommerciel</a></li>
+            <li><a href="about.html">Hvem er vi?</a></li>
+        </ul>
+    </nav>
+    <a id ="bNav" href="contact.html"><button>Kontakt os</button></a>
+</header>
+<br>
 
 <h1>Household page</h1>
-<div class = "wrapper">
+<div class = "buttonWrapper">
     <div class = "textButton">
         <p>Indtast antal personer i familien for at udregne jeres madspild</p>
     </div>
@@ -33,6 +51,19 @@
                     <td><input type="button" value="Tryk her" onclick="solve()"/></td>
         </div>
     </div>
+</div>
+<div class = "tekstWrapper">
+    <h2>Tips til at undgå madspild i hjemmet:</h2>
+    <br>
+    <ul>
+        <img src="/pictures/Madrester.jpg" alt="portrait"/>
+        <h3>1: Hav en restdag</h3>
+        <h4>Sammenkogte retter og supper er ideelle til komme i bund i køleskabet.
+            Hav en ugentlig dag, hvor du laver en af dine bedste tøm køleskabet-retter.</h4>
+        <img src="/pictures/tommave.jpg" alt="portrait"/>
+
+
+    </ul>
 </div>
 </body>
 </html>
