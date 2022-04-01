@@ -27,5 +27,10 @@ public class HomeController {
         return "household";
     }
 
+    @GetMapping("/contact")
+    public String contact() {
+        return "contact";
+    }
+
 
 }

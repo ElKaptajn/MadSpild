@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Palette+Mosaic&display=swap');
 
+
 /*text types*/
 
 h0 {
@@ -31,18 +32,25 @@ p1 {
 
 /*wrappers*/
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 div {
 
 }
 
 body {
     background: url("/pictures/indexbg.png");
-    padding-top: 100px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     text-align: center;
 }
 
 
 /*classes*/
+
 
 .headline {
     padding-top: 25px;
@@ -59,7 +67,8 @@ body {
 
 /*ids*/
 
-#logo {
+#logotrans {
+    padding-top: 100px;
     max-width: 200px;
     max-height: 200px;
     height: auto;
@@ -68,4 +77,71 @@ body {
 
 
 /*navigationbar*/
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: #002043;
+}
+
+.background{
+    background-color: #002043;
+    width: 100%;
+    height: 500px;
+}
+
+.img-clickable{
+    margin-right: auto;
+}
+
+.logo{
+    height: 4rem;
+    margin-right: auto;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0 1.25rem;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    transition: all 0.5s ease 0s;
+    color: whitesmoke;
+
+}
+
+.nav-links li a:hover{
+    color: rgba(0, 173 ,181 , 0.8);
+}
+
+#bNav button{
+    background: #04bd70;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    transition: all 0.5s ease 0s;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: whitesmoke;
+}
+
+#bNav button:hover{
+    background: rgba(0, 173 ,181 , 0.8);
+}
+
+
+
 
