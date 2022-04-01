@@ -48,3 +48,12 @@
     border-color: black;
     left: 101px;
 }
+body{
+    color: white;
+}
+
+h2{
+    font-size: 3em;
+    margin-left: 100px;
+    margin-top: 50px;
+}
