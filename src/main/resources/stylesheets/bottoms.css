@@ -3,10 +3,11 @@
     width: 350px;
     border-radius: 10px;
     border-color: black;
-    position: sticky;
+    position: fixed;
     float: right;
     margin-top: 50px;
     margin-right: 100px;
+    margin-left: 1200px;
     background: url("/pictures/Householdbuttonimagetwo.jpg");
     background-size:     cover;
     background-repeat:   no-repeat;
