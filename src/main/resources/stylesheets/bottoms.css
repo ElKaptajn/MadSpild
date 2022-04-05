@@ -40,13 +40,26 @@
     margin-left: 20px;
 }
 
-.tekstWrapper{
+.tekstWrapperHousehold{
     height: 220px;
     width: 500px;
     margin-top: 50px;
     padding: 1px;
     border-color: black;
     margin-left: 101px;
+}
+.tekstWrapperCommercial{
+    height: auto;
+    width: auto;
+    max-width: 970px;
+    margin-top: 50px;
+    padding: 1px;
+    position: absolute;
+    border-color: black;
+    margin-left: 40px;
+}
+.center{
+    margin-left: 200px;
 }
 body{
     color: white;

@@ -3,53 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel = "stylesheet" href="../../stylesheets/bottoms.css">
+    <link rel="stylesheet" href="../../stylesheets/nav.css">
+    <style>
+        img{
+            border-radius: 8px;
+        }
+    </style>
+    <script>
+        function dis(val){
+            document.getElementById("result").value+=val
+        }
+        function solve(){
+            let x = document.getElementById("result").value
+            let y = 5*(x)
+            let z = 365*(y)
+            document.getElementById("result").value = y + "Kr. Om dagen!"
+            document.getElementById("result2").value = z + "Kr. om året!"
+        }
+    </script>
 </head>
-<body>
-
-<h1>Company page</h1>
-
-</body>
-</html>
-
-
-<html>
-    <head>
-        <script>
-            function dis(val){
-                document.getElementById("result").value+=val
-            }
-            function solve(){
-                let x = document.getElementById("result").value
-                let y = 256*(x)
-                document.getElementById("result").value = y
-            }
-        </script>
-            <style>
-                .title{
-                    margin-bottom: 70px;
-                    text-align: center;
-                    width: 250px;
-                    color: lightcyan;
-                    border: aquamarine 3px;
-                }
-                input[type="button"] {
-                    background-color: aquamarine;
-                    color: black;
-                    border: aquamarine 3px;
-                }
-                input[type="text"] {
-                    background-color: aquamarine;
-                    border: lightgreen 3px;
-                    width: 98%;
-                }
-            </style>
-    </head>
-        <body>
-                <div class = title >Comercial Calculator</div>
-                <table border="1">
-                    <tr>
-                        <td><input type="text" id ="result"/></td>
-                        <td><input type="button" value="Tryk her" onclick="solve()"/></td>
-
-
+    <body>
+    <header>
+        <span class="img-clickable">
+            <a href="index.html">
+                <img src="/pictures/Logo%20med%20tekst.png" alt="main-logo" class="logo"/>
+            </a>
+        </span>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Hjem</a></li>
+                <li><a href="household.html">Husstand</a></li>
+                <li><a href="commercial.html">Kommerciel</a></li>
+                <li><a href="about.html">Hvem er vi?</a></li>
+            </ul>
+        </nav>
+        <a id ="bNav" href="contact.html"><button>Kontakt os</button></a>
+    </header>
+    <br>
+    <br>
+        <div class = "buttonWrapper">
+        <div class = "textButton">
+            <p>Indtast antal personer i jeres organisation for at udregne jeres madspild</p>
+        </div>
+            <div class = "button1">
+                <td><input type="text" name="personer" placeholder="Antal personer" id ="result"/></td>
+                <td><input type="text" name="personer" placeholder="Mad spild på et år" id ="result2"/></td>
+                <div class = "button2">
+                    <td><input type="button" value="Tryk her" onclick="solve()"/></td>
+                </div>
+            </div>
+        </div>
+        <div class = "tekstWrapperCommercial">
+            <div class="center">
+                <h2>Tips til at undgå madspild i virksomheden:</h2>
+                <br>
+                <img src = "/pictures/refoodLogo.png" alt = "Refood logo" width="300px" height="300px"/>
+            </div>
+            <h3>Refood: en løsning mod madspild for virksomheder</h3>
+            <br>
+            <h4>Refood indsamler og genanvender madaffald, brugt fritureolie og stegefedt. Det er en vigtig agenda for dem,
+                da alt affald indeholder ressourcer, vi kan (og skal) udnytte og genbruge til gavn for miljøet.
+                Helt konkret bliver madaffaldet, fedtet og fritureolie genanvendt til grøn energi, næringsrig gødning og biodiesel.
+                Et sikkert værdifuldt og bæredygtigt alternativ</h4>
+        </div>
+    </body>
 </html>
