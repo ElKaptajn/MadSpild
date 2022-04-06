@@ -9,8 +9,8 @@
     float: right;
     margin-top: 50px;
     margin-right: 100px;
-    margin-left: 1100px;
-    background: url("/pictures/Householdbuttonimagetwo.jpg");
+    margin-left: 1500px;
+    background: url("../pictures/Householdbuttonimagetwo.jpg");
     background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
@@ -72,11 +72,12 @@ h2{
     font-size: 3em;
     margin-left: 100px;
     margin-top: 50px;
+    text-shadow: 2px 3px 5px black;
 }
 
 .titleWrapper{
     margin-top: 50px;
-    margin-right: 500px;
+    margin-right: 850px;
     text-align: center;
     text-shadow: 2px 3px 5px black;
 }
@@ -89,8 +90,8 @@ h2{
     float: right;
     margin-top: 280px;
     margin-right: 100px;
-    margin-left: 1100px;
-    background: url("/pictures/Money-Waste2.jpg");
+    margin-left: 1500px;
+    background: url("../pictures/Money-Waste2.jpg");
     background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center;
@@ -141,6 +142,10 @@ h2{
     height: 100%;
     text-align: center;
     border-radius: 15px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
 }
 #btn{
     background-color: #6ffa62

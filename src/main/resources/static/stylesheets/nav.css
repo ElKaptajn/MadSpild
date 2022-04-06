@@ -7,7 +7,7 @@
     padding: 0;
 }
 .bodyA{
-    background: url("/pictures/aboutbg.png");
+    background: url("../pictures/aboutbg.png");
     background-attachment: fixed;
 }
 
@@ -51,7 +51,7 @@
 }
 
 .boxRight ul, .boxLeft ul{
-    list-style-image: url("/pictures/fluebenhvid.png");
+    list-style-image: url("../pictures/fluebenhvid.png");
     float: left;
     display: inline;
     padding-left: 60px;

@@ -42,7 +42,7 @@ div {
 }
 
 body {
-    background: url("/pictures/indexbg.png");
+    background: url("../pictures/indexbg.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     text-align: center;

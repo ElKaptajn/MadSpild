@@ -13,7 +13,7 @@
 }
 
 .bodyA{
-    background: url("/pictures/contactbg.png");
+    background: url("../pictures/contactbg.png");
     background-attachment: fixed;
 }
 

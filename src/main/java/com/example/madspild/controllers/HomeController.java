@@ -9,27 +9,27 @@ public class HomeController {
 
     @GetMapping("/")
     public String index(){
-        return "index";
+        return "home/index";
     }
 
     @GetMapping("/about")
     public String about() {
-        return "about";
+        return "home/about";
     }
 
     @GetMapping("/commercial")
     public String commercial() {
-        return "commercial";
+        return "home/commercial";
     }
 
     @GetMapping("/household")
     public String household() {
-        return "household";
+        return "home/household";
     }
 
     @GetMapping("/contact")
     public String contact() {
-        return "contact";
+        return "home/contact";
     }
 
 
