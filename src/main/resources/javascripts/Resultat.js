@@ -16,20 +16,3 @@ window.onload = function() {
     let yearKG = document.getElementById("yearKG").innerText = s;
 }
 
-
-window.onload = function() {
-    var button = document.getElementById("button");
-    button.addEventListener("click", solve1);
-}
-
-function solve1(){
-    let p = document.getElementById("result1").value;
-    let o = 5*(p);
-    let i = 365*(o);
-    let k = 1.5*(p);
-    let l = 365*(k);
-    let dagDKK = document.getElementById('dagDKK').innerText = o;
-    let yearDKK = document.getElementById("yearDKK").innerText = i;
-    let dagKG = document.getElementById("dagKG").innerText = k;
-    let yearKG = document.getElementById("yearKG").innerText = l;
-}
