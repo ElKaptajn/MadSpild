@@ -6,6 +6,7 @@
     <link rel = "stylesheet" href="../../stylesheets/bottoms.css">
     <link rel="stylesheet" href="../../stylesheets/nav.css">
     <link rel="stylesheet" href="../../stylesheets/index.css">
+    <script type = "text/javascript" src ="../../javascripts/Resultat.js"></script>
     <style>
         img{ border-radius: 50px;}
         body {
@@ -13,18 +14,7 @@
             background-repeat: no-repeat;
             background-attachment: fixed;}
     </style>
-    <script>
-        function dis(val){
-            document.getElementById("result").value+=val
-        }
-        function solve(){
-            let x = document.getElementById("result").value
-            let y = 5*(x)
-            let z = 365*(y)
-            document.getElementById("result").value = y + "Kr. Om dagen!"
-            document.getElementById("result2").value = z + "Kr. om året!"
-        }
-    </script>
+
 </head>
 <body>
 <header>
@@ -45,17 +35,24 @@
 </header>
 <br>
 
-<h1>Household page</h1>
 <div class = "buttonWrapper">
     <div class = "textButton">
-        <p>Indtast antal personer i familien for at udregne jeres madspild</p>
+        <p>Indtast antal personer i jeres organisation for at udregne jeres madspild</p>
     </div>
     <div class = "button1">
-        <td><input type="text" name="personer" placeholder="Antal personer" id ="result"/></td>
-        <td><input type="text" name="personer" placeholder="Mad spild på et år" id ="result2"/></td>
+        <input id = "result1" type = "number"/>
         <div class = "button2">
-                    <td><input type="button" value="Tryk her" onclick="solve()"/></td>
+            <input id = "button" type="button" value ="tryk her"/>
         </div>
+    </div>
+</div>
+<div class = "resultBox">
+    <div class = "resultBoxText">
+        <h4>MADSPILD</h4>
+        <p>pr. dag i DKK:  </p> <p id = "dagDKK">-</p>
+        <p>pr. år i DKK: </p> <p id = "yearDKK">-</p>
+        <p>pr. dag i KG: </p> <p id = "dagKG">-</p>
+        <p>pr. år i KG: </p> <p id = "yearKG">-</p>
     </div>
 </div>
 <div class = "tekstWrapperHousehold">
