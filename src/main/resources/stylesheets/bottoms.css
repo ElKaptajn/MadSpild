@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Palette+Mosaic&display=swap');
+
 .buttonWrapper{
     height: 220px;
     width: 350px;
@@ -18,25 +20,25 @@
 .button1 {
     border: aquamarine 3px;
     color: black;
-    padding: 10px 150px 8px 20px;
+    padding: 1px 150px 8px 20px;
     text-align: center;
     text-decoration: lightgreen;
     display: inline-block;
-    font-size: 20px;
+    font-size: 15px;
     box-shadow: #f30b0b;
+    margin-top: 15px;
 }
 .button2 input[type="button"] {
-    padding-top: 2px;
+    margin-top: 5px;
     background-color: #6ffa62;
     color: black;
     border: 1px solid black;
 }
 .textButton{
     color: black;
-    font-weight: bold;
     border-color: black;
     margin-right: 150px;
-    margin-top: 40px;
+    margin-top: 10px;
     margin-left: 20px;
 }
 
@@ -76,6 +78,7 @@ h2{
     margin-top: 50px;
     margin-right: 500px;
     text-align: center;
+    text-shadow: 2px 3px 5px black;
 }
 .resultBox{
     height: 220px;
@@ -94,7 +97,6 @@ h2{
 }
 .resultBoxText{
     color: black;
-    font-weight: bold;
     border-color: black;
     margin-right: 1px;
     margin-top: 1px;
@@ -142,4 +144,7 @@ h2{
 }
 #btn{
     background-color: #6ffa62
+}
+*{
+    font-family: "Montserrat", sans-serif;
 }
